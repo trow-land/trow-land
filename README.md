@@ -4,13 +4,20 @@
 </p>
 
 # Tom Rowland  
-**Data Scientist | MSc Robotics | Ex-Army | Python • SQL • Machine Learning**
+**Data Scientist | MSc Robotics | Python • SQL • Machine Learning**
 
 ---
 
 I am a data scientist with a background in robotics and experience developing machine learning and computer vision solutions in the meditech sector. My current focus is on delivering end-to-end analytical projects with real-world impact, from data engineering and feature design to model development and communication of results.
 
 ---
+
+<!-- Core Skills Badges -->
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-00618A?style=flat&logo=postgresql&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat&logo=scikitlearn&logoColor=white)
+![Computer Vision](https://img.shields.io/badge/Computer%20Vision-0A66C2?style=flat&logo=opencv&logoColor=white)
+
 
 ## Key Skills
 
@@ -22,10 +29,6 @@ I am a data scientist with a background in robotics and experience developing ma
 ---
 
 ## Projects
-
-### Motor Insurance Claim Classification  
-Binary classification model using tabular policyholder and vehicle data to predict claim outcomes.  
-> *Technologies:* Python, XGBoost, pandas, matplotlib, scikit-learn
 
 ### Westminster Air Pollution Aggregator  
 Ingested and cleaned CSVs of London air quality data, creating time-series summaries and rolling averages.  
@@ -42,7 +45,6 @@ Loaded and analysed 8M+ records using warehouse-aware transformations and spatia
 - **MSc Robotics** – Distinction
 - **BEng Electrical and Electronic Engineering** – First Class Honours   
 - **Machine Learning Engineer**, Meditech Startup  
-- **British Army Veteran**, former Avionics Technician  
 - **Published Author** – Conference paper presented at the International Conference of Visual Computing '24
 
 ---
