@@ -17,7 +17,7 @@ I am a data scientist with a background in robotics and experience developing ma
 - **Languages & Tools**: Python, SQL (PostgreSQL, Snowflake), Bash, Git, Power BI  
 - **Libraries & Frameworks**: pandas, scikit-learn, XGBoost, PyTorch, OpenCV, TensorFlow 
 - **ML Techniques**: Supervised learning, classification, regression, tree-based models, model evaluation  
-- **Data Engineering**: ETL, file , pipeline automation, modular scripting, data cleaning  
+- **Data Engineering**: ETL, file IO, pipeline automation, modular scripting, data cleaning  
 
 ---
 
