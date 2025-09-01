@@ -21,22 +21,29 @@ I am a data scientist with a background in robotics and experience developing ma
 
 ## Key Skills
 
-- **Languages & Tools**: Python, SQL (PostgreSQL, Snowflake), Bash, Git, Power BI  
+- **Languages & Tools**: Python, SQL (PostgreSQL, Snowflake), Bash, Git, Tableau, Power BI  
 - **Libraries & Frameworks**: pandas, scikit-learn, XGBoost, PyTorch, OpenCV, TensorFlow 
 - **ML Techniques**: Supervised learning, classification, regression, tree-based models, model evaluation  
 - **Data Engineering**: ETL, file IO, pipeline automation, modular scripting, data cleaning  
 
 ---
 
-## Projects
+## Example Project
 
-### Westminster Air Pollution Aggregator  
-Ingested and cleaned CSVs of London air quality data, creating time-series summaries and rolling averages.  
-> *Technologies:* Python, pandas, datetime processing, matplotlib
+### **. Retail Inventory Warehouse & Dashboard (MS SQL + Power BI)**  
+- **Overview**: Built an end-to-end mini data warehouse in SQL Server and developed an interactive Power BI dashboard to analyse retail store performance.  
+- **Tools**: SQL Server (staging + star schema), Power BI.  
+- **Highlights**:  
+  - Designed staging tables, applied data typing, and created a star schema (`dim_date`, `dim_store`, `dim_product`, `fact_inventory`).  
+  - Used `MERGE` logic to maintain clean dimensions and surrogate keys.  
+  - Created `mart.v_inventory_daily` reporting view for BI consumption.  
+  - Power BI dashboards included:  
+    - **Discount vs Units Sold** → Showed positive correlation between discount levels and sales volume.  
+    - **Units Sold vs Forecast Units** → Compared actual demand with forecasted demand, tracking error across quarters.  
+    - **Price Gap vs Units Sold** → Analysed competitive pricing influence on sales, with trendlines highlighting sensitivity.  
+  - Added slicers for interactivity (category, quarter).  
 
-### Chicago Crime Analysis in Snowflake  
-Loaded and analysed 8M+ records using warehouse-aware transformations and spatial clustering.  
-> *Technologies:* Snowflake SQL, window functions, clustering, time partitioning
+![discount_units_sold](https://github.com/trow-land/Data-Science/blob/main/Retail%20Inventory%20Analysis/plots/units_sold_vs_forecast.gif)
 
 ---
 
