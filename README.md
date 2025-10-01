@@ -30,7 +30,19 @@ I am a data scientist with a background in robotics and experience developing ma
 
 ## Example Project
 
-### **. Retail Inventory Warehouse & Dashboard (MS SQL + Power BI)**  
+### [Santander Cycles Data Engineering & Analysis](https://github.com/trow-land/Data-Science/tree/main/Santander%20Cycle%20Hire) (PostgreSQL, PostGIS, Power BI)
+
+**Project Aims:**
+- Build a layered PostgreSQL/PostGIS warehouse (raw → staging → core → mart) to ingest, validate, and transform millions of London cycle hire journeys.
+- Implement incremental ETL pipelines with data quality checks (deduplication, referential integrity, duration and timestamp validation).
+- Enrich data with geospatial calculations (direct distances between start and end stations).
+- Develop marts to support downstream analytics: demand by station/hour, origin–destination flows, seasonal trends.
+- Orchestrate workflows with Prefect and manage transformations with dbt Core.
+- Deliver interactive dashboards in Power BI/Tableau to highlight commuter patterns, rebalancing needs, and the influence of weather/events.
+
+![dashboard_preview](https://github.com/trow-land/Data-Science/blob/main/Santander%20Cycle%20Hire/dashboards/mvp_dashboard_png.png)
+
+### **. [Retail Inventory Warehouse & Dashboard](https://github.com/trow-land/Data-Science/tree/main/Retail%20Inventory%20Analysis) (MS SQL + Power BI)**  
 - **Overview**: Built an end-to-end mini data warehouse in SQL Server and developed an interactive Power BI dashboard to analyse retail store performance.  
 - **Tools**: SQL Server (staging + star schema), Power BI.  
 - **Highlights**:  
